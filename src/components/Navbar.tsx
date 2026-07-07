@@ -47,7 +47,7 @@ export default function Navbar() {
 
         {/* Invite Button Desktop */}
         <a
-          href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands"
+          href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=139623517248&integration_type=0&scope=bot"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 rounded-lg bg-cyan-600 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-cyan-600/25 transition-all hover:bg-cyan-500 hover:shadow-cyan-500/30 hover:-translate-y-0.5"
@@ -83,7 +83,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=8&integration_type=0&scope=bot"
+              href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=139623517248&integration_type=0&scope=bot"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 block rounded-lg bg-cyan-600 px-4 py-2.5 text-center text-sm font-semibold text-white"

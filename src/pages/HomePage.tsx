@@ -91,7 +91,7 @@ export default function HomePage() {
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands"
+              href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=139623517248&integration_type=0&scope=bot"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2.5 rounded-xl bg-cyan-600 px-8 py-3.5 text-base font-semibold text-white shadow-xl shadow-cyan-600/25 transition-all hover:bg-cyan-500 hover:shadow-cyan-500/30 hover:-translate-y-0.5"
@@ -221,7 +221,7 @@ export default function HomePage() {
               together.
             </p>
             <a
-              href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands"
+              href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=139623517248&integration_type=0&scope=bot"
               target="_blank"
               rel="noopener noreferrer"
               className="relative mt-8 inline-flex items-center gap-2 rounded-xl bg-cyan-600 px-8 py-3.5 text-base font-semibold text-white shadow-xl shadow-cyan-600/25 transition-all hover:bg-cyan-500 hover:-translate-y-0.5"

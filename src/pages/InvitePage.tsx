@@ -1,18 +1,23 @@
 import { Headphones, CheckCircle, ExternalLink } from "lucide-react";
 
 const permissions = [
-  "Connect to voice channels",
-  "Speak in voice channels",
-  "Read messages",
+  "View channels",
+  "Read message history",
   "Send messages",
   "Embed links",
+  "Attach files",
   "Add reactions",
+  "Use external emojis",
+  "Use external stickers",
   "Use slash commands",
+  "Connect to voice channels",
+  "Speak in voice channels",
+  "Use voice activity",
 ];
 
 export default function InvitePage() {
   const inviteUrl =
-    "https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=8&integration_type=0&scope=bot";
+    "https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=139623517248&integration_type=0&scope=bot";
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24">
