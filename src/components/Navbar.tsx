@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           <img
-            src="/images/pipik-logo.png"
+            src={`${import.meta.env.BASE_URL}images/pipik-logo.png`}
             alt="Pipik"
             className="h-10 w-10 rounded-full ring-2 ring-cyan-400/30 group-hover:ring-cyan-400/60 transition-all"
           />

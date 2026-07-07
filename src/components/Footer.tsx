@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/images/pipik-logo.png"
+                src={`${import.meta.env.BASE_URL}images/pipik-logo.png`}
                 alt="Pipik"
                 className="h-8 w-8 rounded-full"
               />
