@@ -44,8 +44,8 @@ const features = [
 ];
 
 const stats = [
-  { value: "10,000+", label: "Servers" },
-  { value: "500,000+", label: "Users" },
+  { value: "1+", label: "Servers" },
+  { value: "10+", label: "Users" },
   { value: "99.9%", label: "Uptime" },
   { value: "24/7", label: "Support" },
 ];

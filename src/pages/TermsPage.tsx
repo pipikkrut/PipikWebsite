@@ -4,98 +4,98 @@ export default function TermsPage() {
       <h1 className="text-3xl font-bold text-white sm:text-4xl mb-2">
         Terms of Service
       </h1>
-      <p className="text-sm text-slate-500 mb-10">Last updated: January 1, 2025</p>
+      <p className="text-sm text-slate-500 mb-10">Last updated: July 8, 2026</p>
 
       <div className="space-y-8">
-        <Section title="1. Acceptance of Terms">
+        <Section title="1. Eligibility">
           <p>
-            By using the <strong>Pipik</strong> bot ("Bot") you agree to these
-            Terms of Service. If you do not agree, please stop using the Bot.
+            By inviting or using <strong>Pipik</strong> ("the Bot"), you agree to
+            these Terms of Service. You must also comply with Discord's Terms of
+            Service and Community Guidelines while using the Bot.
           </p>
         </Section>
 
-        <Section title="2. Description of Service">
+        <Section title="2. Description of the Service">
           <p>
-            Pipik is a free music bot for the Discord platform that provides
-            music playback features in voice channels.
+            Pipik provides music playback and related features within Discord
+            servers. Features may be modified, expanded, or discontinued at any
+            time without prior notice.
           </p>
         </Section>
 
         <Section title="3. Acceptable Use">
-          <p>When using the Bot you must not:</p>
+          <p>You agree not to:</p>
           <ul>
-            <li>Abuse bot features (command spam, automation)</li>
-            <li>
-              Use the bot to violate{" "}
-              <a
-                href="https://discord.com/terms"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-400 hover:text-cyan-300 underline underline-offset-2"
-              >
-                Discord's Terms of Service
-              </a>
-            </li>
-            <li>
-              Attempt to hack, reverse-engineer, or disrupt the bot's
-              operation
-            </li>
-            <li>Use the bot to distribute illegal content</li>
+            <li>Use the Bot for any unlawful purpose.</li>
+            <li>Spam commands or intentionally overload the Bot.</li>
+            <li>Exploit bugs or attempt to interfere with the Bot's operation.</li>
+            <li>Circumvent technical restrictions or rate limits.</li>
+            <li>Use the Bot in violation of Discord's Terms of Service.</li>
+            <li>Distribute or promote copyrighted content without authorization.</li>
           </ul>
         </Section>
 
         <Section title="4. Availability">
           <p>
-            We strive for maximum uptime but do not guarantee uninterrupted
-            service. The Bot may be unavailable due to maintenance, updates,
-            or force majeure.
+            The Bot is provided on an <strong>"as is"</strong> and{" "}
+            <strong>"as available"</strong> basis. We do not guarantee uninterrupted
+            availability, uptime, or error-free operation.
           </p>
         </Section>
 
-        <Section title="5. Limitation of Liability">
+        <Section title="5. Third-Party Services">
           <p>
-            The Bot is provided "as is". We are not liable for any direct or
-            indirect damages arising from the use of the Bot.
+            The Bot relies on third-party services such as Discord and external audio
+            providers. We are not responsible for their availability, content, or
+            policies.
           </p>
         </Section>
 
         <Section title="6. Intellectual Property">
           <p>
-            The Bot does not store or distribute music files. All audio is
-            streamed directly from the respective platforms. Users are
-            responsible for copyright compliance.
+            The Bot, including its code, branding, and original content, remains the
+            property of its developer(s). All trademarks and copyrights belong to
+            their respective owners.
           </p>
         </Section>
 
         <Section title="7. Termination">
           <p>
-            We reserve the right to restrict access to the Bot for users or
-            servers that violate these terms.
+            We reserve the right to suspend or terminate access to the Bot at any
+            time, with or without notice, if these Terms are violated.
           </p>
         </Section>
 
-        <Section title="8. Changes to Terms">
+        <Section title="8. Disclaimer of Warranties">
           <p>
-            We may modify these terms at any time. Continued use of the Bot
-            after changes constitutes acceptance of the new terms.
+            The Bot is provided without warranties of any kind, whether express or
+            implied, including fitness for a particular purpose or uninterrupted
+            service.
           </p>
         </Section>
 
-        <Section title="9. Contact">
+        <Section title="9. Limitation of Liability">
           <p>
-            For any questions, please reach out on our{" "}
-            <a
-              href="https://discord.gg/YOUR_SERVER"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan-400 hover:text-cyan-300 underline underline-offset-2"
-            >
-              Discord support server
-            </a>
-            .
+            To the fullest extent permitted by law, the developer(s) shall not be
+            liable for any indirect, incidental, or consequential damages arising
+            from the use or inability to use the Bot.
           </p>
         </Section>
-      </div>
+
+        <Section title="10. Changes to These Terms">
+          <p>
+            We may update these Terms at any time. Continued use of the Bot after
+            changes become effective constitutes acceptance of the revised Terms.
+          </p>
+        </Section>
+
+        <Section title="11. Contact">
+          <p>
+            Support services are currently unavailable. Contact information will be
+            provided once the official support system becomes available.
+          </p>
+        </Section>
+        </div>
     </div>
   );
 }

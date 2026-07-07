@@ -69,35 +69,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Social */}
-          <div>
-            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-400">
-              Community
-            </h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://discord.gg/YOUR_SERVER"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-slate-500 transition-colors hover:text-cyan-400"
-                >
-                  Discord Server
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-slate-500 transition-colors hover:text-cyan-400"
-                >
-                  GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="mt-10 border-t border-white/5 pt-6 text-center">

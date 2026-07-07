@@ -83,7 +83,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands"
+              href="https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=8&integration_type=0&scope=bot"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 block rounded-lg bg-cyan-600 px-4 py-2.5 text-center text-sm font-semibold text-white"

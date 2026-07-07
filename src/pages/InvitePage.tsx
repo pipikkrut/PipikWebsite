@@ -12,7 +12,7 @@ const permissions = [
 
 export default function InvitePage() {
   const inviteUrl =
-    "https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands";
+    "https://discord.com/oauth2/authorize?client_id=1237326088464629770&permissions=8&integration_type=0&scope=bot";
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24">
