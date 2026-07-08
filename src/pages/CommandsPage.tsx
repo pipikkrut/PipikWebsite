@@ -49,6 +49,13 @@ const commands: Command[] = [
     category: "music",
   },
   {
+    name: "!skip",
+    description: "Skip to the next track in the queue",
+    usage: "!skip",
+    icon: <SkipForward className="h-4 w-4" />,
+    category: "music",
+  },
+  {
     name: "!stop",
     description: "Stop playback and clear the queue",
     usage: "!stop",
