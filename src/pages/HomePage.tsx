@@ -189,7 +189,7 @@ export default function HomePage() {
               {
                 step: "03",
                 title: "Play Music",
-                desc: "Type /play and the track name. That's it! 🎶",
+                desc: "Type !play and the track name. That's it! 🎶",
               },
             ].map((s) => (
               <div key={s.step} className="text-center">
