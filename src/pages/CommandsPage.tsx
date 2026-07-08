@@ -71,8 +71,8 @@ const commands: Command[] = [
   },
   {
     name: "!volume",
-    description: "Adjust playback volume (0–100)",
-    usage: "!volume <number>",
+    description: "Adjust playback volume (0–100) or get the current volume",
+    usage: "!volume <number> or !volume",
     icon: <Volume2 className="h-4 w-4" />,
     category: "music",
   },
